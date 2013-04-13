@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/new_board_dialog_layout_root"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp">
+	<LinearLayout android:orientation="horizontal"
+	              android:layout_width="fill_parent"
+	              android:layout_height="wrap_content"
+	              android:padding="10dp"
+	              >
+	    <TextView android:layout_width="wrap_content"
+	              android:layout_height="fill_parent"
+	              android:textColor="#FFF"
+	              android:text="@string/name"
+	              android:gravity="center"
+	              android:layout_marginRight="10sp"
+	              />
+		<EditText android:text=""
+				   android:id="@+id/board_name_prompt"
+				   android:layout_width="fill_parent"
+				   android:layout_height="fill_parent"
+				   android:minWidth="180dp"
+				   android:inputType="text">
+		</EditText>
+	</LinearLayout>
+	<Button android:id="@+id/new_board_ok_button"
+			android:layout_height="wrap_content"
+            android:text="@string/ok" 
+            android:layout_width="fill_parent" 
+            android:layout_marginLeft="25dp" 
+            android:layout_marginRight="25dp">
+	</Button>
+	<TextView android:id="@+id/add_board_error"
+			  android:textColor="#FFFF0000"
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:text="@string/name_already_in_use"
+			  android:padding="10dp"
+			  android:visibility="gone" ></TextView>		
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/q8_puzzle_options">
+        <ListPreference android:title="@string/board_size"
+                        android:summary="@string/board_size_summary"
+                        android:entries="@array/q8_board_sizes"
+                        android:entryValues="@array/q8_board_size_values"
+                        android:defaultValue="8"
+                        android:key="Q8_Board_Size"></ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
+

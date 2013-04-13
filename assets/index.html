@@ -1,0 +1,145 @@
+<html>
+ <head>
+    <title>Puzzles</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <style>
+        body {
+            background-color: #D0D0D0;
+        }
+
+        h1,h2 {font-family: Verdana, sans-serif;
+            margin-left: 5px;
+            color: rgb(0, 102, 153);}
+
+        p {font-family: Verdana, sans-serif;
+           margin-left: 5px;}
+
+        a, ul {font-family: Verdana, sans-serif;}
+
+        div.mainframe {background: white;
+                    border: solid;
+                    border-width: thin;
+                    margin-left: 1%;
+                    margin-right: 1%;
+                    width: 98%;}
+
+        table.euler {background: rgb(146, 139, 56);
+                     border: 1px solid #000000;}
+        tr.euler {font-size: 12pt;
+                  font-weight: bold;
+                  text-align: center;
+                  border: 1px solid #000000;
+                  color: #FFFFCC}
+        td.euler {border: 1px solid #000000;}
+    </style>
+  </head>
+  <body>
+  <div class="mainframe">
+    <h1>Puzzles Collection</h1>
+
+    <h2>Eight Queens</h2>
+    <p>This is the classic game of placing 8 queens on the chessboard, without
+       one attacking another. Click on a square to place a queen. Re-click to
+       remove the queen. This is harder than it initially seems, so a
+       <input value="Tip" onclick="alert('Place first queen on a2 and second on b4.')" type="submit">
+       may be useful.
+       If you still can't solve it, you can ask the application to solve it for you.
+    </p>
+
+    <p> There is a total of 92 different solutions for this riddle.
+        If symmetrical solutions (through 90, 180, 270 degrees rotation) are
+        considered identical, the actual number of different solutions is 23.
+        This riddle is commonly used  as an example problem for algorithm design.
+    </p>
+
+    <h2>Knight's Tour</h2>
+    <p>This is another classic. Objective of the game is to guide the knight
+       through all of the chessboard's squares. You must end one knight's move
+       away from the first move. Click on a highlighted square to move the
+       knight. Clicking on the last visited square will undo the last move.
+       You can also click "Undo" at the menu.</p>
+
+    <p>Select "Settings" to play variations of the puzzle.  You can
+       change the size of the board (up to 12x12). You can also play the puzzle
+       without the need to end one knight move away from the first position
+       (uncheck the Reentrant option). If you uncheck the Knight's move only
+       option, then you can also move three squares afar in the same column
+       or row.
+    </p>
+
+    <p>The following table depicts a famous solution to the problem by Leonard Euler,
+       great mathematician of 18th century.</p>
+    <table class="euler" align="center" border="1" cellpadding="2" cellspacing="2" width="200px">
+        <tbody><tr class="euler">
+
+            <td class="euler">1</td><td class="euler">48</td><td class="euler">31</td><td class="euler">50</td>
+            <td class="euler">33</td><td class="euler">16</td><td class="euler">63</td><td class="euler">18</td>
+
+        </tr>
+        <tr class="euler">
+
+            <td class="euler">30</td><td class="euler">51</td><td class="euler">46</td><td class="euler">3</td>
+            <td class="euler">62</td><td class="euler">19</td><td class="euler">14</td><td class="euler">35</td>
+        </tr>
+
+        <tr class="euler">
+
+            <td class="euler">47</td><td class="euler">2</td><td class="euler">49</td><td class="euler">32</td>
+            <td class="euler">15</td><td class="euler">34</td><td class="euler">17</td><td class="euler">64</td>
+        </tr>
+        <tr class="euler">
+
+            <td class="euler">52</td><td class="euler">29</td><td class="euler">4</td><td class="euler">45</td>
+            <td class="euler">20</td><td class="euler">61</td><td class="euler">36</td><td class="euler">13</td>
+        </tr>
+        <tr class="euler">
+            <td class="euler">5</td><td class="euler">44</td><td class="euler">25</td><td class="euler">56</td>
+
+            <td class="euler">9</td><td class="euler">40</td><td class="euler">21</td><td class="euler">60</td>
+        </tr>
+        <tr class="euler">
+            <td class="euler">28</td><td class="euler">53</td><td class="euler">8</td><td class="euler">41</td>
+
+            <td class="euler">24</td><td class="euler">57</td><td class="euler">12</td><td class="euler">37</td>
+
+        </tr>
+        <tr class="euler">
+            <td class="euler">43</td><td class="euler">6</td><td class="euler">55</td><td class="euler">26</td>
+
+            <td class="euler">39</td><td class="euler">10</td><td class="euler">59</td><td class="euler">22</td>
+        </tr>
+
+        <tr class="euler">
+            <td class="euler">54</td><td class="euler">27</td><td class="euler">42</td><td class="euler">7</td>
+
+            <td class="euler">58</td><td class="euler">23</td><td class="euler">38</td><td class="euler">11</td>
+        </tr>
+    </tbody></table>
+
+    <p>A knight can pass sequentially through all the squares. Besides this, the square is
+       also a "semi magic square". That is, the sum of all rows and columns is equal (260). The
+       square is not a "full magic square", because the sum of the two primary diagonals
+       is not the same with the sum of the rows and the columns. However the square has
+       another interesting property. The sum of every half row and every half column is 130,
+       that is the half of the sum of every row and column! In case you are wondering, it is
+       impossible to build an 8x8 square that is both a full magic square and a knight' tour!
+       </p>
+
+    <h2>Solo</h2>
+
+    <p>I suppose everyone has tried this at least once before. The game is won
+       if just one peg remains on the board. You remove a peg by moving another
+       one over it. The peg that moves must be located right next to the one
+       that is removed and must land to a free spot exactly two pegs away.
+       Only horizontal and vertical moves are allowed. Click a peg that is
+       allowed to move to select it and then click an empty spot to jump over
+       the peg in the middle. Select "Undo" from the menu to undo your last move.
+    </p>
+    
+    <h2>About</h2>
+    
+    <p>Puzzle Solver is an open-source application. You can read about it and access the source code in <a href="http://www.codeproject.com/Articles/295910/Android-Puzzles-Solver">The Code Project</a>.</p>
+    
+  </div>
+  </body>
+</html>

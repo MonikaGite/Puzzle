@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+               android:id="@+id/help_dialog_layout_root"
+               android:layout_height="fill_parent"
+      			android:layout_width="fill_parent"
+      			android:padding="10dp">
+	<LinearLayout android:orientation="vertical"
+	              android:layout_width="fill_parent"
+	              android:layout_height="wrap_content"
+	              android:padding="10dp"
+	              >
+	    <TextView android:layout_width="fill_parent"
+	              android:layout_height="fill_parent"
+	              android:textColor="#FFF"
+	              android:text="@string/game_description"
+	              />
+	    <Button android:id="@+id/help_ok_button"
+	   	  	    android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="25dp"
+	            android:padding="10dp"
+	   		    android:text="@string/ok"
+	   			/>
+	</LinearLayout>
+   </ScrollView>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Puzzle Solver</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="name">Name</string>
+    <string name="start_new_game_alert_text">Are you sure you want to start a new game?</string>
+    <string name="finish_game_alert_text">Are you sure you want to exit the game?</string>
+    <string name="tip">Tip</string>
+    <string name="PAUSE">PAUSE</string>
+
+	<string name="game_type">Select Puzzle</string>
+    <string-array name="game_types">
+	    <item name="queens">Queens</item>
+	    <item name="knights_tour">Knight\'s Tour</item>
+	    <item name="solo">Solo</item>
+    </string-array>
+
+	<string name="queens">Queens</string>
+	<string name="knights_tour">Knight\'s Tour</string>
+	<string name="solo">Solo</string>
+        
+    <string name="puzzles">Puzzles</string>
+    <string name="scores">Scores</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+
+	<string name="undo">Undo</string>
+	<string name="restart">Restart</string>
+	<string name="replay">Replay Solution</string>
+	<string name="stop">Stop</string>
+	<string name="solve">Solve</string>
+	<string name="options">Options</string>
+	
+	<string name="first_label">1. </string>
+	<string name="second_label">2. </string>
+	<string name="third_label">3. </string>	
+
+	<string name="enter_high_score_name">Congratulations! You\'ve achieved a best time score.</string>
+	<string name="riddle_cant_be_solved">Riddle can\'t be solved!</string>
+
+  	<string name="please_wait">Please wait&#8230;</string>
+  	<string name="please_wait_long_message">Please wait&#8230; Computer is searching for a solution. 
+The application doesn\'t use pre-stored solutions, but dynamically looks for a solution using 
+backtracking algorithms. For certain puzzles it may take too long, before a solution is found.</string>
+  	<string name="preferences">Preferences</string>
+
+	<string name="no_scores_found">No scores for this game.</string>
+
+	<string name="help_file_name">index.html</string>
+
+	<string name="q8_puzzle_options">8 Queens Options</string>
+	<string name="knight_tour_puzzle_options">Knight\'s Tour Options</string>
+	<string name="solo_puzzle_options">Solo Options</string>
+
+	<string name="board_size">Board Size</string>
+	<string name="reentrant">Reentrant</string>
+	<string name="knights_moves_only">Knight\'s moves only</string>
+	<string name="show_numbers">Show numbers</string>
+	<string name="line_size">Line size</string>
+
+	<string name="very_easy">Very Easy</string>
+	<string name="easy">Easy</string>
+	<string name="medium">Medium</string>
+	<string name="hard">Hard</string>
+	
+	<string name="no_more_moves">There are no more moves available. Undo or restart.</string>
+
+	<string name="board_size_summary">Configure the board size</string>
+	<string name="reentrant_summary">Select whether the knight should return at the position it started from</string>
+	<string name="knights_moves_only_summary">Select whether the knight will be allowed to also move 3 squares apart at the same row/column</string>
+	<string name="show_numbers_summary">Check this to draw numbers inside the squares</string>
+	<string name="line_size_summary">Select the line size</string>
+	<string name="theme">Theme</string>
+	<string name="theme_summary">Select the display theme</string>
+	<string name="puzzle_type">Puzzle type</string>
+	<string name="puzzle_type_summary">Select the puzzle type</string>
+
+    <string-array name="q8_board_sizes">
+    	<item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="q8_board_size_values">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="knights_tour_board_sizes">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="knights_tour_board_size_values">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="solo_themes">
+    	<item>Wood 1</item>
+    	<item>Wood 2</item>
+        <item>Marble</item>
+    </string-array>
+
+    <string-array name="solo_theme_values">
+        <item>wood</item>
+        <item>wood2</item>
+        <item>marble</item>
+    </string-array>
+
+    <string-array name="solo_puzzles">
+    	<item>Classic</item>
+        <item>Cross</item>
+        <item>Diamond</item>
+        <item>Big Diamond</item>
+        <item>Moved</item>
+        <item>Triangular 4</item>
+        <item>Triangular 5</item>
+        <item>Triangular 6</item>
+    </string-array>
+
+    <string-array name="solo_puzzle_values">
+        <item>classic</item>
+        <item>cross</item>
+        <item>diamond</item>
+        <item>big_diamond</item>
+        <item>moved</item>
+        <item>triangular4</item>
+        <item>triangular5</item>
+        <item>triangular6</item>
+    </string-array>
+    
+    <string-array name="knights_tour_line_sizes">
+        <item>No line</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <string-array name="knights_tour_line_size_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>    
+
+	<string name="solved_in_seconds">Solved in %%d seconds!</string>
+
+	<string name="custom_boards">Custom boards</string>
+	<string name="new_board">New board</string>
+	<string name="save">Save</string>
+	<string name="edit">Edit</string>
+	<string name="rename">Rename</string>
+	<string name="delete">Delete</string>
+	<string name="solo_new_board_directions">Touch on a position to change its state to \'board\',\'hole\' or \'peg\'. When you are ready select \'Save\' from the menu. If the board is invalid, saving won\'t be allowed.</string>
+	<string name="name_already_in_use">This name is already in use!</string>
+	<string name="name_cant_be_empty">Name can\'t be empty!</string>
+	<string name="delete_confirmation">Are you sure?</string>
+	<string name="an_error_occurred">An error occurred!</string>
+	<string name="edit_board">Edit </string>
+	<string name="edit_new_board">Edit new board</string>
+	<string name="do_not_show_again">Do not show again</string>
+	<string name="custom_board_instructions">Custom board instructions</string>
+	<string name="show_custom_board_instructions">Show custom board instructions</string>
+	    
+    <string name="board_options">Board Options</string>
+    
+    <string name="board_type">Board Type</string>
+    <string name="board_type_summary">Select the board type</string>
+    <string-array name="board_types">
+        <item>Square</item>
+        <item>Square Diagonal Moves</item>
+        <item>Triangular</item>
+    </string-array>
+    <string-array name="board_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="board_sizes">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string name="target_position">Target Position</string>
+    <string name="target_position_summary">Select if it will be required to finish in a specific position</string>
+
+    <string name="diagonal_moves">Diagonal Moves</string>
+    <string name="diagonal_moves_summary">Select if diagonal moves will be allowed</string>    
+    
+    <string name="board_edit">Board Edit</string>	
+	
+    <string name="game_description">
+Puzzles Collection is a collection of some popular riddles and games.
+\n\nDeveloped by: Kostas Giannakakis info@sullenart.gr
+    </string>
+</resources>

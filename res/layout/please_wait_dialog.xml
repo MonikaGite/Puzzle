@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		  android:id="@+id/please_wait_dialog"
+  			  android:layout_width="fill_parent"
+  			  android:layout_height="fill_parent"
+  			  android:minWidth="240dp"
+  			  android:minHeight="240dp"
+  			  android:orientation="vertical"
+  			  android:padding="2dp">
+    <TextView android:text="@string/please_wait_long_message"
+    		  android:id="@+id/messageTextView"
+    		  android:padding="3dp"
+    		  android:layout_height="wrap_content"
+    		  android:layout_width="fill_parent"></TextView>
+    <ProgressBar android:id="@+id/progressBar1"
+        		 android:layout_width="28dp"
+    			 android:layout_height="28dp" 
+    			 android:layout_gravity="center"
+    			 android:layout_marginBottom="4dp"></ProgressBar>
+    <Button android:text="@string/cancel"
+    		android:id="@+id/cancel_button"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" 
+    		android:layout_gravity="center"
+    		android:paddingTop="4dp"
+    		android:paddingBottom="4dp"></Button>
+</LinearLayout>

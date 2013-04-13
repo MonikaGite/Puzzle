@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="fill_parent"
+    		    android:orientation="vertical">
+    <TextView android:id="@+id/custom_board_edit_message"
+        	  android:layout_width="fill_parent"
+        	  android:layout_height="wrap_content"
+        	  android:padding="8dp"
+        	  android:gravity="center"
+        	  android:text="@string/edit_board"
+        	  android:textColor="#FFFFFFFF"
+        	  android:background="@drawable/message_gradient"
+        	  style="@style/Title" />
+    <gr.sullenart.games.puzzles.PuzzleView
+        		android:id="@+id/edit_puzzle_view"
+                android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"/>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/solo_puzzle_options">
+        <ListPreference android:title="@string/theme"
+                        android:summary="@string/theme_summary"
+                        android:entries="@array/solo_themes"
+                        android:entryValues="@array/solo_theme_values"
+                        android:defaultValue="wood"
+                        android:key="Solo_Theme"></ListPreference>
+        <ListPreference android:title="@string/puzzle_type"
+                        android:summary="@string/puzzle_type_summary"
+                        android:entries="@array/solo_puzzles"
+                        android:entryValues="@array/solo_puzzle_values"
+                        android:defaultValue="classic"
+                        android:key="Solo_Puzzle_Type"></ListPreference>
+        <CheckBoxPreference android:title="@string/custom_board_instructions"
+                            android:summary="@string/show_custom_board_instructions"
+                            android:defaultValue="true"
+                            android:key="Show_Custom_Board_Instructions"></CheckBoxPreference>        
+    </PreferenceCategory>
+</PreferenceScreen>

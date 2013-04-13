@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rätsel Lösen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="name">Name</string>
+    <string name="start_new_game_alert_text">Wollen sie wirklich ein neues Spiel zu starten?</string>
+    <string name="finish_game_alert_text">Wollen sie wirklich das Spiel beenden?</string>
+    <string name="tip">Beratung</string>
+    <string name="PAUSE">PAUSE</string>
+
+    <string name="game_type">Rätsel wählen</string>
+    <string-array name="game_types">
+        <item name="queens">Damen</item>
+        <item name="knights_tour">Springerproblem</item>
+        <item name="solo">Solitär</item>
+    </string-array>
+
+	<string name="queens">Damen</string>
+	<string name="knights_tour">Springerproblem</string>
+	<string name="solo">Solitär</string>        
+        
+    <string name="puzzles">Rätsel</string>
+    <string name="scores">Scores</string>
+    <string name="help">Hilfe</string>
+    <string name="about">Über</string>
+
+    <string name="undo">Annullieren</string>
+    <string name="restart">Neu starten</string>
+    <string name="replay">Lösung wiederholen</string>
+    <string name="stop">Stop</string>
+    <string name="solve">Lösen</string>
+    <string name="options">Optionen</string>
+    
+	<string name="first_label">1. </string>
+	<string name="second_label">2. </string>
+	<string name="third_label">3. </string>    
+
+    <string name="enter_high_score_name">Gut gematcht! Dies ist eine neue Bestzeit!</string>
+    <string name="riddle_cant_be_solved">Rätsel nicht gelöst werden können!</string>
+
+    <string name="please_wait">Bitte warten&#8230;</string>
+  	<string name="please_wait_long_message">Bitte warten&#8230; Der Computer sucht nach einer Lösung. 
+  	    Die Anwendung verwendet keine gespeicherten Lösungen sondern sucht dynamisch nach einer 
+  	    Lösung mit Hilfe von Backtracking-Algorhitmen. Bei bestimmten Rätseln kann es lange dauern 
+  	    bis eine Lösung gefunden wird.</string>    
+    
+    <string name="preferences">Voreinstellungen</string>
+
+    <string name="no_scores_found">Keine Highscores für dieses Spiel.</string>
+
+    <string name="help_file_name">index_de.html</string>
+
+    <string name="q8_puzzle_options">8 Damen Optionen</string>
+    <string name="knight_tour_puzzle_options">Springerproblem Optionen</string>
+    <string name="solo_puzzle_options">Solitär Optionen</string>
+
+    <string name="board_size">Brettgröße</string>
+    <string name="reentrant">Geschlossen</string>
+    <string name="knights_moves_only">Nur als Springer bewegen</string>
+    <string name="show_numbers">Zahlen zeichnen</string>
+    <string name="line_size">Liniengröße</string>
+
+    <string name="very_easy">Sehr leicht</string>
+    <string name="easy">Leicht</string>
+    <string name="medium">Schwer</string>
+    <string name="hard">Sehr schwer</string>
+    
+    <string name="no_more_moves">Es gibt keine Züge mehr zur Verfügung. Annullieren oder neu starten.</string>
+
+    <string name="board_size_summary">Konfigurieren Sie die Brettgröße</string>
+    <string name="reentrant_summary">Wählen Sie ob der Springer in die Ausgangsposition zurückkommen muß.</string>
+    <string name="knights_moves_only_summary">Wählen Sie ob der Springer 3 Positionen in der gleichen Zeile oder Spalte sich bewegen kann.</string>
+    <string name="show_numbers_summary">Wählen Sie, ob Zahlen gezeichnet werden</string>
+    <string name="line_size_summary">Wählen Sie die Liniengröße</string>
+    <string name="theme">Thema</string>
+    <string name="theme_summary">Wählen Sie das Schau Thema</string>
+    <string name="puzzle_type">Rätsel Typ</string>
+    <string name="puzzle_type_summary">Wählen Sie das Rätsel Typ</string>
+
+    <string-array name="q8_board_sizes">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="q8_board_size_values">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="knights_tour_board_sizes">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="knights_tour_board_size_values">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="solo_themes">
+        <item>Holz 1</item>
+        <item>Holz 2</item>
+        <item>Marmor</item>
+    </string-array>
+
+    <string-array name="solo_theme_values">
+        <item>wood</item>
+        <item>wood2</item>
+        <item>marble</item>
+    </string-array>
+
+    <string-array name="solo_puzzles">
+        <item>Original</item>
+        <item>Kreuz</item>
+        <item>Raute</item>
+        <item>Große Raute</item>
+        <item>Verschoben</item>
+        <item>Dreieckig 4</item>
+        <item>Dreieckig 5</item>
+        <item>Dreieckig 6</item>
+    </string-array>
+
+    <string-array name="solo_puzzle_values">
+        <item>classic</item>
+        <item>cross</item>
+        <item>diamond</item>
+        <item>big_diamond</item>
+        <item>moved</item>
+        <item>triangular4</item>
+        <item>triangular5</item>        
+        <item>triangular6</item>        
+    </string-array>
+    
+    <string-array name="knights_tour_line_sizes">
+        <item>Keine Linie</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>  
+
+    <string-array name="knights_tour_line_size_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+   <string name="board_options">Spiel-Optionen</string>
+
+    <string name="board_type">Brett Typ</string>
+    <string name="board_type_summary">Wählen Sie das Brett Typ</string>
+    <string-array name="board_types">
+        <item>Quadrat</item>
+        <item>Quadrat Diagonale Umzüge</item>
+        <item>Dreieckig</item>
+    </string-array>
+    <string-array name="board_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="board_sizes">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string name="target_position">Zielposition</string>
+    <string name="target_position_summary">Wählen Sie, wenn es erforderlich ist, um in einer bestimmten Position ins Ziel kommen werden</string>    
+    
+    <string name="diagonal_moves">Diagonale Umzüge</string>
+    <string name="diagonal_moves_summary">Wählen Sie, wenn diagonale Umzüge zugelassen werden</string>      
+    
+    <string name="board_edit">Brett ändern</string>    
+
+	<string name="custom_boards">Benutzer Bretter</string>
+	<string name="new_board">Neues Brett</string>
+	<string name="save">Speichern</string>
+	<string name="edit">Bearbeiten</string>
+	<string name="rename">Umbenennen</string>
+	<string name="delete">Löschen</string>	
+	<string name="solo_new_board_directions">Tippen Sie auf eine Position, um seinen Zustand zu \'Brett\', \'Loch\' oder \'Stein\' ändern. Wenn Sie fertig sind, wählen Sie \'Speichern\' aus dem Menü. Wenn das Brett ungültig ist, wird das Speichern nicht erlaubt.</string>
+	<string name="name_already_in_use">Dieser Name wird bereits verwendet!</string>        
+	<string name="name_cant_be_empty">Der Name darf nicht leer sein!</string>
+	<string name="delete_confirmation">Sind sie sicher?</string>
+	<string name="an_error_occurred">Ein Fehler ist aufgetreten!</string>
+	<string name="edit_board">Bearbeiten </string>
+	<string name="edit_new_board">Neues Brett bearbeiten</string>
+	<string name="do_not_show_again">Nicht mehr anzeigen</string>
+	<string name="custom_board_instructions">Benutzer Brett Anleitung</string>
+	<string name="show_custom_board_instructions">Benutzer Brett Anleitung anzeigen</string>	
+	    
+    <string name="solved_in_seconds">In %%d sekunden gelöst!</string>
+
+    <string name="game_description">"Rätsel Lösen" ist eine Sammlung von einigen beliebten Rätseln und Spielen. \n\nEntwickelt von: Kostas Giannakakis info@sullenart.gr</string>
+</resources>

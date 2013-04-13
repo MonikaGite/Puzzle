@@ -1,0 +1,146 @@
+<html>
+ <head>
+    <title>Puzzles</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <style>
+        body {
+            background-color: #D0D0D0;
+        }
+
+        h1,h2 {font-family: Verdana, sans-serif;
+            margin-left: 5px;
+            color: rgb(0, 102, 153);}
+
+        p {font-family: Verdana, sans-serif;
+           margin-left: 5px;}
+
+        a, ul {font-family: Verdana, sans-serif;}
+
+        div.mainframe {background: white;
+                    border: solid;
+                    border-width: thin;
+                    margin-left: 1%;
+                    margin-right: 1%;
+                    width: 98%;}
+
+        table.euler {background: rgb(146, 139, 56);
+                     border: 1px solid #000000;}
+        tr.euler {font-size: 12pt;
+                  font-weight: bold;
+                  text-align: center;
+                  border: 1px solid #000000;
+                  color: #FFFFCC}
+        td.euler {border: 1px solid #000000;}
+    </style>
+  </head>
+  <body>
+  <div class="mainframe">
+    <h1>Rätsel Lösen</h1>
+
+    <h2>Acht Damen</h2>
+    <p>In diesem klassischen Spiel muß man 8 Damen auf dem Schachbrett legen, 
+	   ohne daß eine Königin eine andere angreift. 
+	   Tippen Sie auf ein Quadrat, um eine Dame zu legen. 
+	   Wieder tippen, um die Dame zu abnehmen. Es ist nicht so leicht das Rätsel zu lösen.
+	   Eine <input value="Beratung" onclick="alert('Legen Sie eine Dame auf A2 und eine andere auf B4.')" type="submit"> könnte nützlich sein.
+	   Wenn Sie auch so das Rätsel nicht lösen können, drücken Sie die Taste "Lösen".
+    </p>
+
+    <p>Es gibt insgesamt 92 verschiedene Lösungen für dieses Rätsel.
+	   Wenn symmetrische Lösungen (es ist egal ob das Schachbrett gedreht ist) als identisch betrachtet sind, 
+	   ist die tatsächliche Anzahl der verschiedenen Lösungen 23.
+       Dieses Rätsel wird allgemein als ein Beispiel Problem für die Entwicklung von Algorithmen verwendet.
+    </p>
+
+    <h2>Springerproblem</h2>
+    <p>Das <a href="http://de.wikipedia.org/wiki/Springerproblem">Springerproblemist</a> ist ein klassisches Spiel, das darin besteht, für einen Springer auf einem leeren Schachbrett eine Route zu finden, auf der dieser jedes Feld genau einmal besucht. Eine Springertour heißt geschlossen, wenn das Endfeld des Springers einen Springerzug vom Startfeld entfernt ist.</p>
+
+	<p>Wählen Sie "Einstellungen", um Variationen des Rätsels zu spielen. Sie können die Größe des Brettes ändern (bis 12x12). Sie können  sowohl geschlossen als auch offenen Rätsel spielen. Schließlich, es ist auch möglich zu wählen, der Springer 3 Positionen in der gleichen Zeile oder Spalte sich bewegen zu können.</p>
+
+    <p>Die folgende Tabelle zeigt eine berühmte Lösung von Leonard Euler, große Mathematiker 
+	   des 18. Jahrhunderts.</p>
+    <table class="euler" align="center" border="1" cellpadding="2" cellspacing="2" width="200px">
+        <tbody><tr class="euler">
+
+            <td class="euler">1</td><td class="euler">48</td><td class="euler">31</td><td class="euler">50</td>
+            <td class="euler">33</td><td class="euler">16</td><td class="euler">63</td><td class="euler">18</td>
+
+        </tr>
+        <tr class="euler">
+
+            <td class="euler">30</td><td class="euler">51</td><td class="euler">46</td><td class="euler">3</td>
+            <td class="euler">62</td><td class="euler">19</td><td class="euler">14</td><td class="euler">35</td>
+        </tr>
+
+        <tr class="euler">
+
+            <td class="euler">47</td><td class="euler">2</td><td class="euler">49</td><td class="euler">32</td>
+            <td class="euler">15</td><td class="euler">34</td><td class="euler">17</td><td class="euler">64</td>
+        </tr>
+        <tr class="euler">
+
+            <td class="euler">52</td><td class="euler">29</td><td class="euler">4</td><td class="euler">45</td>
+            <td class="euler">20</td><td class="euler">61</td><td class="euler">36</td><td class="euler">13</td>
+        </tr>
+        <tr class="euler">
+            <td class="euler">5</td><td class="euler">44</td><td class="euler">25</td><td class="euler">56</td>
+
+            <td class="euler">9</td><td class="euler">40</td><td class="euler">21</td><td class="euler">60</td>
+        </tr>
+        <tr class="euler">
+            <td class="euler">28</td><td class="euler">53</td><td class="euler">8</td><td class="euler">41</td>
+
+            <td class="euler">24</td><td class="euler">57</td><td class="euler">12</td><td class="euler">37</td>
+
+        </tr>
+        <tr class="euler">
+            <td class="euler">43</td><td class="euler">6</td><td class="euler">55</td><td class="euler">26</td>
+
+            <td class="euler">39</td><td class="euler">10</td><td class="euler">59</td><td class="euler">22</td>
+        </tr>
+
+        <tr class="euler">
+            <td class="euler">54</td><td class="euler">27</td><td class="euler">42</td><td class="euler">7</td>
+
+            <td class="euler">58</td><td class="euler">23</td><td class="euler">38</td><td class="euler">11</td>
+        </tr>
+    </tbody></table>
+
+	<p>Der Springer kann nacheinander alle Quadratte durchgehen. Das Schachbrett is auch
+	   ein magisches Quadrat. Die Summe aller Zeilen und Spalten gleich ist (260). Doch ist die 
+	   Summe der beiden primären Diagonalen nicht gleich. Es gibt kein 8x8 Quadrat, das
+	   sowohl eine volle magische Quadrat und ein Springer Rundgang ist. Euler's Quadrat hat 
+	   eine weitere interessante Eigenschaft. Die Summe der jede halbe Zeile und jede halbe 
+	   Spalte ist 130, das ist die Hälfte der Summe jeder Zeile und Spalte!</p>
+
+    <h2>Solitär</h2>
+
+    <p>Solitär ist ein Brettspiel für eine Person. In das Brett liegen sich Steine und Felder. 
+      Steine können über benachbarte Steine springen. Steine dürfen nur in Zeilen und Spalten, 
+      nicht jedoch diagonal springen. Der überspringene Stein wird entfernt. Ziel des Spiels ist
+      es, alle bis auf ein Stein vom Brett zu entfernen. Tippen Sie auf einen Stein und dann 
+      auf ein Feld, um über einen benachbarten Stein zu springen. Das Menü ermöglicht es Ihnen, 
+      Variationen des Speils zu wählen. Es ist auch möglich, das Thema zu ändern.</p>
+
+	<p>In <a href="http://de.wikipedia.org/wiki/Solit%C3%A4r_%28Brettspiel%29">Wikipedia</a> lies man:</p>
+
+	<blockquote>Dass das Spiel zuerst in Frankreich bekannt war, ist gesichert. Es taucht erstmals 1687 
+	auf einem Porträt von Claude-Auguste Berey auf und wurde mit Sicherheit am Hof des Sonnenkönigs gespielt.
+	In England wird es erstmals 1746 erwähnt. Die Geschichte vom „französischen Adeligen im Gefängnis“
+	entstammt einem englischen Buch aus dem Jahr 1801, wie John Beasley 1985 im einzigen Fachbuch zum Thema,
+	The Ins and Outs of Peg Solitaire, festhält. Beasley verweist diese Geschichte in das Reich der 
+	„unausrottbaren Fabeln“, mit entsprechend geringem Erfolg. Auch, dass es in Übersee erfunden worden 
+	sein könnte, ist weder auszuschließen noch überprüfbar. Die englische Bezeichnung Sailor's solitaire 
+	könnte dies andeuten. In der Schweiz wird dieses Brettspiel weitläufig als „Amdener Tubbeli Spiel“
+	bezeichnet. Amden ist ein Dorf am Walensee. Handwerker in Amden stellen solche Brettspiele her. Gottfried
+	Wilhelm Leibniz schätzte das Spiel und erwähnte 1710 in einem Brief, dass er dafür seine eigene 
+	Variante gefunden hatte. Eines der ältesten gedruckt vorliegenden Spielbretter ist kreuzförmig, hat 
+	45 Felder und stammt von J. C. Wiegleb, 1779.</blockquote>
+    
+    <h2>Über</h2>
+    
+    <p>Rätsel Lösen ist eine Open Source Anwendung. Sie können darüber in <a href="http://www.codeproject.com/Articles/295910/Android-Puzzles-Solver">The Code Project</a> lesen.</p>    
+    
+  </div>
+  </body>
+</html>

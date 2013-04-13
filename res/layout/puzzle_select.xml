@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		  android:orientation="vertical"
+              style="@style/GameSelector">
+    <TextView android:id="@+id/queens_select"
+              android:text="@string/queens"
+              android:drawableLeft="@drawable/icon_queens"
+              android:gravity="center_vertical"
+              style="@style/GameSelectorText"/>              
+    <TextView android:id="@+id/solo_select"
+              android:text="@string/solo"
+              android:drawableLeft="@drawable/icon_solo"
+              android:gravity="center_vertical"
+              style="@style/GameSelectorText"/>                   
+</LinearLayout>

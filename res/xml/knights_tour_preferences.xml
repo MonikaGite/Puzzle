@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/knight_tour_puzzle_options">
+        <ListPreference android:title="@string/board_size"
+                        android:summary="@string/board_size_summary"
+                        android:defaultValue="8"
+                        android:key="KT_Board_Size"
+                        android:entries="@array/knights_tour_board_sizes"
+                        android:entryValues="@array/knights_tour_board_size_values"></ListPreference>
+        <CheckBoxPreference android:title="@string/reentrant"
+                            android:summary="@string/reentrant_summary"
+                            android:defaultValue="true"
+                            android:key="Reentrant"></CheckBoxPreference>
+        <CheckBoxPreference android:title="@string/knights_moves_only"
+                            android:summary="@string/knights_moves_only_summary"
+                            android:defaultValue="true"
+                            android:key="Knights_Move_Only"></CheckBoxPreference>
+        <CheckBoxPreference android:title="@string/show_numbers"
+                            android:summary="@string/show_numbers_summary"
+                            android:defaultValue="true"
+                            android:key="KT_Show_Numbers"></CheckBoxPreference>
+        <ListPreference android:title="@string/line_size"
+                        android:summary="@string/line_size_summary"
+                        android:defaultValue="0"
+                        android:key="KT_Line_Size"
+                        android:entries="@array/knights_tour_line_sizes"
+                        android:entryValues="@array/knights_tour_line_size_values"></ListPreference>            
+    </PreferenceCategory>
+</PreferenceScreen>

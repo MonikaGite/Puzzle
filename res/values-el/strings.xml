@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Επίλυση Γρίφων</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="name">Όνομα</string>
+    <string name="start_new_game_alert_text">Είστε σίγουροι ότι θέλετε να ξεκινήσετε καινούριο παιχνίδι;</string>
+    <string name="finish_game_alert_text">Είστε σίγουροι ότι θέλετε να σταματήσετε το παιχνίδι;</string>
+    <string name="tip">Συμβουλή</string>
+    <string name="PAUSE">ΠΑΥΣΗ</string>
+
+    <string name="game_type">Επιλογή Γρίφου</string>
+    <string-array name="game_types">
+	    <item name="queens">Βασίλισσες</item>
+	    <item name="knights_tour">Ο Γύρος του Ιππότη</item>
+	    <item name="solo">Σόλο</item>
+    </string-array>
+    
+	<string name="queens">Βασίλισσες</string>
+	<string name="knights_tour">Ο Γύρος του Ιππότη</string>
+	<string name="solo">Σόλο</string>         
+
+    <string name="puzzles">Γρίφοι</string>
+    <string name="scores">Σκορ</string>
+    <string name="help">Βοήθεια</string>
+    <string name="about">Σχετικά</string>
+
+    <string name="please_wait">Παρακαλώ περιμένετε&#8230;</string>
+  	<string name="please_wait_long_message">Παρακαλώ περιμένετε&#8230; Ο υπολογιστής αναζητεί μία λύση. 
+Η εφαρμογή δεν χρησιμοποιεί αποθηκευμένες λύσεις, αλλά ψάχνει δυναμικά για μία λύση με τη χρήση αλγορίθμων
+\'backtracking\'. Για ορισμένους γρίφους μπορεί να πάρει πάρα πολύ πριν βρεθεί μία λύση.</string>    
+    
+  	<string name="preferences">Ρυθμίσεις</string>
+
+	<string name="no_scores_found">Δεν υπάρχουν σκορ για αυτό το παιχνίδι.</string>
+
+	<string name="undo">Αναίρεση</string>
+	<string name="restart">Επανεκκίνηση</string>
+	<string name="replay">Προβολή λύσης</string>
+	<string name="stop">Τερματισμός</string>
+	<string name="solve">Επίλυση</string>
+	<string name="options">Επιλογές</string>
+	
+	<string name="first_label">1. </string>
+	<string name="second_label">2. </string>
+	<string name="third_label">3. </string>	
+	
+	<string name="riddle_cant_be_solved">Ο γρίφος δε λύνεται!</string>
+	<string name="enter_high_score_name">Συγχαρητήρια! Σημειώσατε έναν από τους καλύτερους χρόνους.</string>
+
+	<string name="help_file_name">index_gr.html</string>
+
+	<string name="q8_puzzle_options">8 Βασίλισσες - Επιλογές</string>
+	<string name="knight_tour_puzzle_options">Ο γύρος με το άλογο - Επιλογές</string>
+	<string name="solo_puzzle_options">Σόλο - Επιλογές</string>
+
+	<string name="board_size">Μέγεθος σκακιέρας</string>
+	<string name="reentrant">Κλειστός γύρος</string>
+	<string name="knights_moves_only">Μόνο κινήσεις αλόγου</string>
+	<string name="show_numbers">Εμφάνιση αριθμών</string>
+	<string name="line_size">Μέγεθος γραμμής</string>
+
+	<string name="very_easy">Πολύ Εύκολο</string>
+	<string name="easy">Εύκολο</string>
+	<string name="medium">Μεσαίο</string>
+	<string name="hard">Δύσκολο</string>
+	
+	<string name="no_more_moves">Δεν υπάρχουν άλλες διαθέσιμες κινήσεις. Κάντε αναίρεση ή επανεκκίνηση.</string>
+
+	<string name="board_size_summary">Ρυθμίστε το μέγεθος της σκακιέρας</string>
+	<string name="reentrant_summary">Επιλέξτε αν πρέπει το άλογο να επιστρέφει στο τετράγωνο από όπου ξεκίνησε</string>
+	<string name="knights_moves_only_summary">Επιλέξτε αν το άλογο θα επιτρέπεται να κινείται κατά 3 τετράγωνα στην ίδια σειρά ή στήλη</string>
+	<string name="show_numbers_summary">Επιλέξτε αν θα εμφανίζονται αριθμοί μέσα στα τετράγωνα</string>
+	<string name="line_size_summary">Επιλέξτε το μέγεθος της γραμμής</string>
+	<string name="theme">Θέμα</string>
+	<string name="theme_summary">Επιλέξτε το θέμα εμφάνισης</string>
+	<string name="puzzle_type">Επιλογή γρίφου</string>
+	<string name="puzzle_type_summary">Επιλέξτε το γρίφο που θα παίξετε</string>
+
+    <string-array name="q8_board_sizes">
+    	<item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="q8_board_size_values">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="knights_tour_board_sizes">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="knights_tour_board_size_values">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>	
+	
+    <string-array name="solo_themes">
+    	<item>Ξύλο 1</item>
+    	<item>Ξύλο 2</item>
+        <item>Μάρμαρο</item>
+    </string-array>
+    
+    <string-array name="solo_theme_values">
+        <item>wood</item>
+        <item>wood2</item>
+        <item>marble</item>
+    </string-array>    
+
+    <string-array name="solo_puzzles">
+    	<item>Κλασσικό</item>
+        <item>Σταυρός</item>
+        <item>Ρόμβος</item>
+        <item>Μεγάλος Ρόμβος</item>
+        <item>Κουνημένο</item>
+        <item>Τριγωνικό 4</item>
+        <item>Τριγωνικό 5</item>
+        <item>Τριγωνικό 6</item>
+    </string-array>
+    
+    <string-array name="solo_puzzle_values">
+        <item>classic</item>
+        <item>cross</item>
+        <item>diamond</item>
+        <item>big_diamond</item>
+        <item>moved</item>
+        <item>triangular4</item>
+        <item>triangular5</item>        
+        <item>triangular6</item>
+    </string-array>    
+
+    <string-array name="knights_tour_line_sizes">
+        <item>Χωρίς γραμμή</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>    
+
+    <string-array name="knights_tour_line_size_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+   <string name="board_options">Επιλογές παιχνιδιού</string>
+
+    <string name="board_type">Τύπος παιχνιδιού</string>
+    <string name="board_type_summary">Επιλογή του τύπου παιχνιδιού</string>
+    <string-array name="board_types">
+        <item>Τετράγωνο</item>
+        <item>Τετράγωνο Διαγώνιες Κινήσεις</item>
+        <item>Τριγωνικό</item>
+    </string-array>
+    <string-array name="board_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="board_sizes">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string name="target_position">Θέση Τερματισμού</string>
+    <string name="target_position_summary">Επιλέξτε αν θα απαιτείται να τερματίσετε σε συγκεκριμένη θέση</string>    
+    
+    <string name="diagonal_moves">Διαγώνιες Κινήσεις</string>
+    <string name="diagonal_moves_summary">Επιλέξτε αν θα επιτρέπονται διαγώνιες κινήσεις</string>      
+    
+    <string name="board_edit">Επεξεργασία Ταμπλό</string>    
+    
+	<string name="solved_in_seconds">Λύθηκε σε %%d δευτερόλεπτα!</string>
+
+	<string name="custom_boards">Ταμπλό χρήστη</string>
+	<string name="new_board">Νέο ταμπλό</string>	
+	<string name="save">Αποθήκευση</string>
+	<string name="edit">Επεξεργασία</string>
+	<string name="rename">Μετονομασία</string>
+	<string name="delete">Διαγραφή</string>	
+	<string name="solo_new_board_directions">Αγγίξτε σε μία θέση για να αλλάξετε την κατάστασή της σε \'ταμπλό\',\'τρύπα\' ή \'πούλι\'. Όταν είστε έτοιμοι επιλέξτε \'Αποθήκευση\' από το μενού. Αν το ταμπλό δεν έχει σωστή μορφή, η αποθήκευση δε θα επιτρέπεται.</string>
+	<string name="name_already_in_use">Το όνομα αυτό χρησιμοποιείται ήδη!</string>	
+	<string name="name_cant_be_empty">Το όνομα δεν μπορεί να είναι κενό!</string>
+	<string name="delete_confirmation">Είστε σίγουροι;</string>   
+	<string name="an_error_occurred">Σημειώθηκε ένα σφάλμα!</string>
+	<string name="edit_board">Επεξεργασία </string>
+	<string name="edit_new_board">Νέο ταμπλό</string>
+	<string name="do_not_show_again">Να μην ξαναεμφανιστεί</string>
+	<string name="custom_board_instructions">Οδηγίες για ταμπλό χρήστη</string>
+	<string name="show_custom_board_instructions">Να εμφανίζονται οδηγίες για τα ταμπλό χρήστη</string>	
+	    
+    <string name="game_description">
+Η εφαρμογή "Γρίφοι" είναι μία συλλογή από δημοφιλείς γρίφους και παιχνίδια.
+
+\n\nΔημιουργήθηκε από: Κώστας Γιαννακάκης info@sullenart.gr
+    </string>
+</resources>

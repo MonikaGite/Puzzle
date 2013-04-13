@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/board_options"
+          android:title="@string/options" android:icon="@android:drawable/ic_menu_preferences" />
+    <item android:id="@+id/board_target_position"
+          android:title="@string/target_position" />          
+    <item android:id="@+id/save"
+          android:title="@string/save" android:icon="@android:drawable/ic_menu_save" />   
+</menu>

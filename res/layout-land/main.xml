@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="fill_parent"
+    		    android:orientation="vertical"
+    		    android:background="@drawable/background">
+    <ImageView android:id="@+id/logo_header"
+        	   android:contentDescription="@string/app_name"
+    		   android:layout_height="66dp"
+    		   android:src="@drawable/logo"
+               android:layout_gravity="center_vertical|center_horizontal"
+               android:layout_width="180dp"
+               android:scaleType="fitXY"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="15dp"
+               android:layout_centerHorizontal="true"/>
+    <LinearLayout android:id="@+id/button_row_1"
+    			  android:orientation="horizontal"
+    			  android:layout_width="wrap_content"
+    			  android:layout_height="wrap_content"
+    			  android:layout_centerInParent="true"
+    			  android:layout_marginBottom="8dp"
+    			  android:layout_below="@id/logo_header">
+	   	<Button android:text="@string/puzzles"
+	   			android:id="@+id/newGameButton"
+	   			android:background="@drawable/main_button"
+	   			style="@style/MainButton"></Button>
+	   	<Button android:text="@string/scores"
+	   			android:id="@+id/scoresButton"
+	   			android:background="@drawable/main_button"
+	   			style="@style/MainButton"></Button>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/button_row_2"
+    			  android:orientation="horizontal"
+    			  android:layout_width="wrap_content"
+    			  android:layout_height="wrap_content"
+    			  android:layout_centerInParent="true"
+    			  android:layout_marginBottom="8dp"
+    			  android:layout_below="@id/button_row_1">
+	   	<Button android:text="@string/help"
+	   			android:id="@+id/helpButton"
+	   			android:background="@drawable/main_button"
+	   			style="@style/MainButton"></Button>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/banner_layout"
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:layout_alignParentBottom="true"
+				  android:layout_centerHorizontal="true">
+	</LinearLayout>
+</RelativeLayout>

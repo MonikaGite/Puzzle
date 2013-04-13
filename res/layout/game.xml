@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="fill_parent">
+    <gr.sullenart.games.puzzles.PuzzleView
+        		android:id="@+id/game_view"
+                android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"/>
+    <TextView android:id="@+id/no_more_moves_message"
+        	  android:layout_width="fill_parent"
+        	  android:layout_height="wrap_content"
+        	  android:text="@string/no_more_moves"
+        	  android:layout_centerHorizontal="true" 
+              android:layout_alignParentTop="true"
+              android:layout_marginTop="40dp"
+              android:padding="10dp"
+              android:background="#C0000000"
+              android:gravity="center_horizontal"
+              android:visibility="gone"
+              style="@style/NoMoreMovesMessage"/>
+    <RelativeLayout android:layout_width="fill_parent" 
+                    android:id="@+id/game_toolbar" 
+                    android:layout_centerHorizontal="true" 
+                    android:layout_alignParentBottom="true"
+                    style="@style/ButtonToolbar"
+                    android:layout_marginTop="4dp"> 
+        <Button android:id="@+id/game_button_undo"
+                android:text="@string/undo"
+                android:gravity="center_vertical"
+                android:background="@drawable/main_button"
+                style="@style/OnBoardButton"/>
+        <LinearLayout android:layout_alignParentRight="true"
+            		  android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+	        <Button android:id="@+id/game_button_restart"
+	                android:text="@string/restart"
+	                android:gravity="center_vertical"
+	                android:background="@drawable/main_button"
+	                style="@style/OnBoardButton"/>
+	       	<Button android:id="@+id/game_button_solve"
+	                android:text="@string/solve"
+	                android:gravity="center_vertical"
+	                android:background="@drawable/main_button"
+	                style="@style/OnBoardButton"/>
+	        <Button android:id="@+id/game_button_stop"
+	                android:text="@string/stop"
+	                android:gravity="center_vertical"
+	                android:background="@drawable/main_button"
+	                style="@style/OnBoardButton" />
+	        <Button android:id="@+id/game_button_replay"
+	                android:text="@string/replay"
+	                android:gravity="center_vertical"
+	                android:background="@drawable/main_button"
+	                style="@style/OnBoardButton" />                            
+        </LinearLayout>                  
+    </RelativeLayout>    
+</RelativeLayout>

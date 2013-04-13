@@ -1,0 +1,149 @@
+﻿<html>
+ <head>
+    <title>Puzzles</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <style>
+        body {
+            background-color: #D0D0D0;
+        }
+
+        h1,h2 {font-family: Verdana, sans-serif;
+            margin-left: 5px;
+            color: rgb(0, 102, 153);}
+
+        p {font-family: Verdana, sans-serif;
+           margin-left: 5px;}
+
+        a, ul {font-family: Verdana, sans-serif;}
+
+        div.mainframe {background: white;
+                    border: solid;
+                    border-width: thin;
+                    margin-left: 1%;
+                    margin-right: 1%;
+                    width: 98%;}
+
+        table.euler {background: rgb(146, 139, 56);
+                     border: 1px solid #000000;}
+        tr.euler {font-size: 12pt;
+                  font-weight: bold;
+                  text-align: center;
+                  border: 1px solid #000000;
+                  color: #FFFFCC}
+        td.euler {border: 1px solid #000000;}
+    </style>
+  </head>
+  <body>
+<div class="mainframe">
+	<h1>Συλλογή Γρίφων</h1>
+
+	<h2>Οχτώ βασίλισσες</h2>
+
+	<p>Πρόκειται για τον κλασικό γρίφο να τοποθετήσει κανείς 8 βασίλισσες σε μια
+	   σκακιέρα, χωρίς η μία να απειλεί κάποια άλλη. Κάνοντας κλικ σε ένα
+	   άδειο τετράγωνο τοποθετείτε μια βασίλισσα. Ξανακάνοντας κλικ την αφαιρείτε.
+	   Ο γρίφος είναι πιο δύσκολος από ότι δείχνει, οπότε μία
+	   <input type="submit" value="συμβουλή"
+		 		onClick="window.alert('Βάλτε την πρώτη βασίλισσα στο a2 και τη δεύτερη στο b4.')">
+	   μπορεί να είναι χρήσιμη.
+	   Αν ακόμα δεν μπορείτε να το λύσετε, επιλέξτε "Επίλυση" από το μενού.
+	</p>
+
+	<p>Υπάρχουν συνολικά 92 διαφορετικές λύσεις. Αν οι συμμετρικές λύσεις που
+	   προκύπτουν από περιστροφή της σκακιέρας κατά 90, 180 και 270 μοίρες
+	   θεωρηθούν ως πανομοιότυπες, τότε ο αριθμός των λύσεων είναι 23. Το πρόβλημα
+	   αυτό χρησιμοποιείται συχνά σαν παράδειγμα για τη σχεδίαση αλγορίθμων.</p>
+
+	<h2>Ο γύρος με το άλογο</h2>
+	<p>Άλλο ένα κλασικό παιχνίδι. Σκοπός του παιχνιδιού είναι να περάσετε με
+	   το άλογο διαδοχικά από όλα τα τετράγωνα της σκακιέρας, τελειώνοντας
+	   ακριβώς μία κίνηση αλόγου μακριά από τη θέση εκκίνησης.</p>
+
+
+	<p>Η εφαρμογή σας επιτρέπει να παίξετε κάποιες παραλλαγές
+	   του παιχνιδιού. Μπορείτε να αλλάξετε το μέγεθος της σκακιέρας
+	   (μέχρι 12x12). Μπορείτε να άρετε τον περιορισμό του κλειστού γύρου (η τελευταία
+	   θέση μία κίνηση αλόγου μακριά από την πρώτη). Μπορείτε ακόμα να προσθέσετε
+	   και ένα δεύτερο τύπο κίνησης. Απενεργοποιώντας την επιλογή &laquo;Μόνο κινήσεις αλόγου&raquo;,
+	   μπορείτε να κινηθείτε τρία τετράγωνα μακριά στην ίδια σειρά ή στήλη.
+	</p>
+
+	<p>Ο παρακάτω πίνακας παρουσιάζει μια διάσημη λύση στο πρόβλημα από τον
+	   Leonard Euler, μεγάλο μαθηματικό του 18ου αιώνα.</p>
+	<table class="euler" cellpadding="2" cellspacing="2" border="1"
+		   align="center" width="200px">
+		<tr class="euler">
+			<td class="euler">1</td><td class="euler">48</td><td class="euler">31</td><td class="euler">50</td>
+			<td class="euler">33</td><td class="euler">16</td><td class="euler">63</td><td class="euler">18</td>
+
+		</tr>
+		<tr class="euler">
+			<td class="euler">30</td><td class="euler">51</td><td class="euler">46</td><td class="euler">3</td>
+			<td class="euler">62</td><td class="euler">19</td><td class="euler">14</td><td class="euler">35</td>
+
+		</tr>
+
+		<tr class="euler">
+			<td class="euler">47</td><td class="euler">2</td><td class="euler">49</td><td class="euler">32</td>
+			<td class="euler">15</td><td class="euler">34</td><td class="euler">17</td><td class="euler">64</td>
+
+		</tr>
+		<tr class="euler">
+
+			<td class="euler">52</td><td class="euler">29</td><td class="euler">4</td><td class="euler">45</td>
+			<td class="euler">20</td><td class="euler">61</td><td class="euler">36</td><td class="euler">13</td>
+
+		</tr>
+		<tr class="euler">
+		    <td class="euler">5</td><td class="euler">44</td><td class="euler">25</td><td class="euler">56</td>
+
+		    <td class="euler">9</td><td class="euler">40</td><td class="euler">21</td><td class="euler">60</td>
+
+		</tr>
+		<tr class="euler">
+			<td class="euler">28</td><td class="euler">53</td><td class="euler">8</td><td class="euler">41</td>
+			<td class="euler">24</td><td class="euler">57</td><td class="euler">12</td><td class="euler">37</td>
+
+		</tr>
+		<tr class="euler">
+			<td class="euler">43</td><td class="euler">6</td><td class="euler">55</td><td class="euler">26</td>
+			<td class="euler">39</td><td class="euler">10</td><td class="euler">59</td><td class="euler">22</td>
+		</tr>
+
+		<tr class="euler">
+			<td class="euler">54</td><td class="euler">27</td><td class="euler">42</td><td class="euler">7</td>
+			<td class="euler">58</td><td class="euler">23</td><td class="euler">38</td><td class="euler">11</td>
+		</tr>
+
+	</table>
+
+	<p>Ένα άλογο μπορεί να περάσει διαδοχικά από όλα τα τετράγωνα. Επιπλέον το τετράγωνο
+	   είναι ένα "ημιμαγικό τετράγωνο". Δηλαδή το άθροισμα κάθε σειράς και στήλης είναι
+	   το ίδιο (260). Το τετράγωνο δεν είναι ένα πλήρες μαγικό τετράγωνο, επειδή το άθροισμα
+	   των δύο κύριων διαγωνίων δεν είναι επίσης 260. Όμως το τετράγωνο έχει και μία άλλη
+	   ενδιαφέρουσα ιδιότητα. Το άθροισμα κάθε μισής σειράς και μισής στήλης είναι 130,
+	   δηλαδή το μισό του αθροίσματος ολόκληρης της σειράς ή στήλης! Σε περίπτωση που
+	   αναρωτιόσασταν, είναι αδύνατη η κατασκευή ενός τετραγώνου 8x8, το οποίο να είναι
+	   και πλήρες μαγικό τετράγωνο και γύρος του αλόγου!</p>
+
+	<h2>Σόλο</h2>
+
+	<p>Υποθέτω ότι όλοι γνωρίζετε αυτό το παιχνίδι και έχετε προσπαθήσει να
+	   το λύσετε τουλάχιστον μία φορά. Ο παίκτης κερδίζει αν αφαιρέσει από το
+	   ταμπλό όλα τα πούλια, εκτός από το τελευταίο. Ένα πούλι αφαιρείτε όταν
+	   ένα άλλο κινείται πάνω από αυτό. Το πούλι που κινείται πρέπει να βρίσκεται
+	   ακριβώς δίπλα σε αυτό το οποίο αφαιρεί και να καταλήξει σε μία ελεύθερη
+	   θέση δύο πούλια μακριά. Επιτρέπονται μόνο οριζόντιες και κάθετες κινήσεις.
+	   Κάνοντας κλικ σε ένα πούλι το οποίο μπορεί να κινηθεί το επιλέγετε. Στη συνέχεια
+	   κάντε κλικ σε μια ελεύθερη θέση για να το μετακινήσετε. Χρησιμοποιώντας την επιλογή
+	   "Αναίρεση" από το μενού, μπορείτε να αναιρέσετε την τελευταία κίνηση.
+	</p>
+
+    <h2>Σχετικά</h2>
+    
+    <p>Η εφαρμογή Επίλυση Γρίφων είναι ένα έργο ανοιχτού λογισμικού. Μπορείτε να διαβάσετε σχετικά και να αποκτήσετε πρόσβαση στον κώδικα στο <a href="http://www.codeproject.com/Articles/295910/Android-Puzzles-Solver">The Code Project</a>.</p>    
+    
+</div>
+
+  </body>
+</html>
